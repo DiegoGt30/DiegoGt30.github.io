@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PrintShell | Redes Sociales</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+  --cyan:#06B6D4;
+  --dark:#1E293B;
+  --ink:#0f172a;
+  --muted:#64748b;
+  --light:#f8fafc;
+  --white:#fff;
+}
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:'Urbanist',sans-serif;
+  color:var(--ink);
+  background:var(--light);
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.container{
+  width:min(600px,92%);
+  text-align:center;
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  font-weight:800;
+  font-size:1.5rem;
+  color:var(--dark);
+  margin-bottom:35px;
+}
+
+.logo-mark{
+  width:42px;
+  height:42px;
+  border-radius:12px;
+  background:var(--dark);
+  display:grid;
+  place-items:center;
+  color:var(--cyan);
+  font-weight:800;
+}
+
+.card{
+  background:white;
+  padding:45px 35px;
+  border-radius:28px;
+  box-shadow:0 20px 50px #0f172a18;
+}
+
+.kicker{
+  color:#0891b2;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-size:.76rem;
+  font-weight:800;
+  margin-bottom:10px;
+}
+
+h1{
+  color:var(--dark);
+  font-size:2.5rem;
+  margin-bottom:12px;
+}
+
+p{
+  color:var(--muted);
+  margin-bottom:30px;
+}
+
+.social{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.social a{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  padding:16px;
+  border-radius:14px;
+  text-decoration:none;
+  font-weight:700;
+  transition:.2s;
+}
+
+.facebook{
+  background:#1877F2;
+  color:white;
+}
+
+.instagram{
+  background:#E1306C;
+  color:white;
+}
+
+.social a:hover{
+  transform:translateY(-3px);
+  box-shadow:0 10px 25px #0f172a22;
+}
+
+.back{
+  display:inline-block;
+  margin-top:25px;
+  color:var(--dark);
+  text-decoration:none;
+  font-weight:700;
+}
+
+.back:hover{
+  color:var(--cyan);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo">
+    <span class="logo-mark">P</span>
+    PRINTSHELL
+  </div>
+
+  <div class="card">
+
+    <div class="kicker">Síguenos</div>
+
+    <h1>Conoce PrintShell</h1>
+
+    <p>
+      Encuentra nuestros diseños, novedades y proyectos
+      en nuestras redes sociales.
+    </p>
+
+    <div class="social">
+
+      <a class="facebook"
+         href="https://www.facebook.com/print.shell3d"
+         target="_blank">
+        Facebook
+      </a>
+
+      <a class="instagram"
+         href="https://www.instagram.com/print_shell3d?utm_source=qr&stkn=MTB3ZmNsNmJ2cHowMg%3D%3D"
+         target="_blank">
+        Instagram
+      </a>
+
+    </div>
+
+    <a class="back" href="index.html">
+      ← Regresar a PrintShell
+    </a>
+
+  </div>
+
+</div>
+
+</body>
+</html>
